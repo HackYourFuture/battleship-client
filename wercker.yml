@@ -3,9 +3,8 @@ box: node
 build:
   steps:
     - npm-install
-  steps:
     - maxon/npm-run:
-        script: npm run build
+        script: build
 
 deploy:
   steps:
