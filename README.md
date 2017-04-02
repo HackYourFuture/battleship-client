@@ -1,3 +1,5 @@
+[![wercker status](https://app.wercker.com/status/eb37dde3103934caef2b03eb1d4af626/s/master "wercker status")](https://app.wercker.com/project/byKey/eb37dde3103934caef2b03eb1d4af626)
+
 # battleship-client
 
 > HYF
