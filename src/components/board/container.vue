@@ -1,15 +1,19 @@
 <template>
-  <div class="hello">
+  <div class="board">
     <h1>{{ msg }}</h1>
+    {{ userName }}
   </div>
 </template>
 
 <script>
+import main from '../../main'
+
 export default {
-  name: 'hello',
+  name: 'board',
   data () {
     return {
-      msg: 'Welcome to HYF battleship'
+      msg: 'This is a board',
+      userName: main.store.state.userName,
     }
   }
 }

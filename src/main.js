@@ -16,3 +16,19 @@ new Vue({
   template: '<App/>',
   components: { App }
 })
+
+const store = new Vuex.Store({
+  state: {
+    userName: 'user',
+    oponentName: 'oponent',
+  },
+  mutations: {
+    setUserName(state, name) {
+      state.userName = name;
+    }
+  }
+})
+
+export default {
+  store
+}
