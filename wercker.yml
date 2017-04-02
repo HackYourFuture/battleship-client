@@ -1,0 +1,17 @@
+box: node
+
+build:
+  steps:
+    - npm-install
+  steps:
+    - maxon/npm-run:
+        script: npm run build
+
+deploy:
+  steps:
+    - install-packages:
+        packages: git ssh-client
+    - lukevivier/gh-pages@0.2.1:
+        token: $GIT_TOKEN
+        domain: hackyourfuture.github.com/battleship-client
+        basedir: dist
