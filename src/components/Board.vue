@@ -1,15 +1,15 @@
 <template>
-  <div class="hello">
+  <div class="board">
     <h1>{{ msg }}</h1>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'hello',
+  name: 'board',
   data () {
     return {
-      msg: 'Welcome to HYF battleship'
+      msg: 'This is a board'
     }
   }
 }

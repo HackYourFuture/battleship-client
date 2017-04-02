@@ -4,7 +4,7 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import Vuex from 'vuex'
-import io from 'socket.io';
+import api from './api'
 
 Vue.config.productionTip = false
 Vue.use(Vuex)
