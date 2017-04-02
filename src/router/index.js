@@ -1,11 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Hello from '@/components/Hello'
-import Board from '@/components/Board'
+import Hello from '@/components/hello/container.vue'
+import Board from '@/components/board/container.vue'
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
   routes: [
     {
       path: '/',
@@ -19,3 +19,5 @@ export default new Router({
     }
   ]
 })
+
+export default router;
