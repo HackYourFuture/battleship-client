@@ -32,7 +32,7 @@ export default {
       this.inputName = true;
     },
     onReady: function() {
-      main.store.commit('setUserName', 'testName')
+      main.store.commit('setUserName', this.name)
       router.push({ name: 'Board', params: { id: 1 }})
     }
   }
