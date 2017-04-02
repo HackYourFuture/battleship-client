@@ -3,7 +3,6 @@ box: node
 build:
   steps:
     - npm-install
-  steps:
     - maxon/npm-run:
         script: build
 
